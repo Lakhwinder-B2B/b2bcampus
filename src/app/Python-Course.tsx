@@ -1,13 +1,7 @@
 'use client'
 
 import React from "react";
-import Header from '../../../component/header'
-import Footer from '../../../component/footer'
-import Banner from '../../../public/python/banner.png'; 
-import Slider from "react-slick";
-import Typewriter from 'typewriter-effect'; 
-import OurMedia from '../../app/home/OurMedia';
-import './Python.css';  
+import '../../src/app/python-training-course/python.css';  
 
 export default function Home() {
  

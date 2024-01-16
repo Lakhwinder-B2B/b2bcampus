@@ -175,7 +175,7 @@ h1.font-bold {
     transform: scale(1.1);
 }
 .shadow.bg-white.p-4.our_box {
-    height: 280px;
+    height: auto;
 }
 .embed-responsive-item{
     height: 500px;
@@ -184,6 +184,10 @@ h1.font-bold {
     color: #fd7c55;
     font-size: 20px;
     font-weight: 500;
+}
+button.book_btn:hover {
+    background: #F47B52;
+    border-color: #F47B52;
 }
 button.nav-link.active {
     background: #fd7c55 !important;
@@ -250,6 +254,24 @@ span.or {
 .banner-python ul.order-list li {
     text-align: left;
 }
+.bg-python {
+    background-color: #071C4D;
+}
+button.brochure-btn {
+    border-color: #000 !important;
+    color: #000 !important;
+}
+button.brochure-btn:hover{
+    color: #fff !important;
+}
+.border-grid {
+    border: 3px solid #3079E8;
+    max-width:100%;
+}
+
+
+
+
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {
         font-size: 20px !important;

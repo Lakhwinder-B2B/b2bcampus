@@ -4,15 +4,13 @@ import React from "react";
 import Header from '../../../component/header'
 import Footer from '../../../component/footer'
 import Banner from '../../../public/python/banner.png'; 
-
-import Slider from "react-slick";
-import Typewriter from 'typewriter-effect'; 
 import OurMedia from '../../app/home/OurMedia';
-import Training from './python-training';
-import Python from './Python-Course';
-import Pythons from './python-column';
-import BannerPython from './python-banner';
-import './Python.css';  
+import Training from '../../../src/app/python-training';
+import Python from '../../../src/app/Python-Course';
+import Pythons from '../../../src/app/python-column';
+import BannerPython from '../../../src/app/python-banner';
+import Pythonteach from '../../../src/app/python-teach';
+import '../python-training-course/python.css';  
 
 export default function Home() {
  
@@ -24,12 +22,12 @@ export default function Home() {
         <div className="container-fluid mx-auto p-5">
           <div className="row align-items-center">
 
-            <div className="col-md-7 pt-5 mt-5"  >
+            <div className="col-md-7">
               <h1 className="text_heading"> Welcome to the Python Mastery Course: Unleash Your Coding Potential!</h1>
               <p className='text-white mt-5 desc_course'>Python Mastery Course is designed to empower you with the skills and
               knowledge needed to excel in the dynamic field of coding</p>
               <div className="mt-5 text-center">
-                <button className='btn btn-outline-primary m-0'> <i className="fa fa-hand-o-right fs-4 hide_ic mr-5" aria-hidden="true"></i> Apply for Counselling </button>
+                <button className='btn btn-outline-primary m-0'>Apply for Counselling </button>
               </div>
             </div>
             <div className="col-md-5"  >
@@ -63,7 +61,7 @@ export default function Home() {
             </div>
             <div className="col-md-5">
             <div className="text-right">
-                <button className='btn btn-outline-primary border_orange mt-0'> <i className="fa fa-hand-o-right fs-4 hide_ic mr-5" aria-hidden="true"></i> Apply for Counselling </button>
+                <button className='btn btn-outline-primary border_orange mt-0'>Apply for Counselling </button>
               </div>
               </div>
               </div>
@@ -74,6 +72,7 @@ export default function Home() {
             <Training/>
             <Pythons/>
             <BannerPython/>
+            <Pythonteach/>
             <OurMedia />
         <Footer />
       </div>

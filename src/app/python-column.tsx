@@ -1,17 +1,17 @@
 'use client'
 
 import React from "react"; 
-import Python1 from '../../../public/img/python1.png';  
-import Python2 from '../../../public/img/python2.png';  
-import Python3 from '../../../public/img/python3.png';  
-import Python4 from '../../../public/img/python4.png'; 
-import Python5 from '../../../public/img/python5.png'; 
-import Python6 from '../../../public/img/python6.png'; 
-import Python7 from '../../../public/img/python7.png'; 
-import Python8 from '../../../public/img/python8.png'; 
+import Python1 from '../../public/img/python1.png';  
+import Python2 from '../../public/img/python2.png';  
+import Python3 from '../../public/img/python3.png';  
+import Python4 from '../../public/img/python4.png'; 
+import Python5 from '../../public/img/python5.png'; 
+import Python6 from '../../public/img/python6.png'; 
+import Python7 from '../../public/img/python7.png'; 
+import Python8 from '../../public/img/python8.png'; 
  
 
-import '../home/course.css'
+import './home/course.css'
 
 export default function Journey() {
 
