@@ -1,13 +1,13 @@
 'use client'
 
 import React from "react"; 
-import Train1 from '../../public/img/1.png';  
-import Train2 from '../../public/img/2.png';  
-import Train3 from '../../public/img/3.png';  
-import Train4 from '../../public/img/4.png'; 
+import Train1 from '../../../public/img/1.png';  
+import Train2 from '../../../public/img/2.png';  
+import Train3 from '../../../public/img/3.png';  
+import Train4 from '../../../public/img/4.png'; 
  
 
-import './home/course.css'
+import '../home/course.css'
 
 export default function Journey() {
 

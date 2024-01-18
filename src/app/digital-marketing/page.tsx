@@ -3,13 +3,13 @@
 import React from "react";
 import Header from '../../../component/header'
 import Footer from '../../../component/footer'
-import Banner from '../../../public/python/banner.png'; 
-import OurMedia from '../../app/home/OurMedia';
-import Training from '../python-training-course/python-training';
-import Python from '../python-training-course/Python-Course';
-import Pythons from '../python-training-course/python-column';
-import BannerPython from '../python-training-course/python-banner';
-import Pythonteach from '../python-training-course/python-teach';
+import Digital from '../../../public/img/digital.png'; 
+import DigitalCourse from '../digital-marketing/digital-course';
+import OurMedia from '../home/OurMedia';
+import Training from '../digital-marketing/digital-training';
+import DigitalColumn from '../digital-marketing/digital-column';
+import DigitalBanner from '../digital-marketing/digital-banner';
+import DigitalTutor from '../digital-marketing/digital-tutor';
 import '../python-training-course/python.css';  
 
 export default function Home() {
@@ -23,15 +23,15 @@ export default function Home() {
           <div className="row align-items-center">
 
             <div className="col-md-7">
-              <h1 className="text_heading"> Welcome to the Python Mastery Course: Unleash Your Coding Potential!</h1>
-              <p className='text-white mt-5 desc_course'>Python Mastery Course is designed to empower you with the skills and
-              knowledge needed to excel in the dynamic field of coding</p>
+              <h1 className="text_heading">Unlock Success Effortlessly with Digital Marketing Course</h1>
+              <p className='text-white mt-5 desc_course'>Enhance your career with our comprehensive digital marketing course. Gain valuable skills in SEO, social media 
+              marketing, content creation, and analytics. Stay ahead in the competitive digital landscape.</p>
               <div className="mt-5 text-center">
                 <button className='btn btn-outline-primary m-0'>Apply for Counselling </button>
               </div>
             </div>
             <div className="col-md-5"  >
-              <img src={Banner.src} className="w-100" alt="" />
+              <img src={Digital.src} className="w-100" alt="" />
           </div>
           </div>
            
@@ -44,7 +44,7 @@ export default function Home() {
 
                 <div className="d-flex justify-content-between">
                 <div className="main_monts">
-                <h3>Course Duration</h3>
+                <h3>Program Duration</h3>
                 <p className="mb-0">3 Months</p>
                 </div>
                 <div className="main_monts"> 
@@ -54,7 +54,7 @@ export default function Home() {
 
                 <div className="main_monts"> 
                 <h3>Program Fees</h3>
-                <p className="mb-0">30,000/- INR</p>
+                <p className="mb-0">25,000/- INR</p>
                 </div>
 
                 </div>
@@ -68,11 +68,11 @@ export default function Home() {
             </div>
           </div>
           </div>
-            <Python />
+            <DigitalCourse />
             <Training/>
-            <Pythons/>
-            <BannerPython/>
-            <Pythonteach/>
+            <DigitalColumn/>
+            <DigitalBanner/>
+            <DigitalTutor/>
             <OurMedia />
         <Footer />
       </div>

@@ -1,15 +1,15 @@
 'use client'
 
 import React from "react"; 
-import Brijesh from '../../public/img/brijesh-sir.png';
-import Kajal from '../../public/img/kajal.png';
-import Priyanka from '../../public/img/priyanka.png';
-import Vikas from '../../public/img/vikas-sir.png';
-import PriyankaGrid from '../../public/img/priyanka-grid.png';
-import ManpreetGrid from '../../public/img/manreet-grid.png';
-import PriyankaGrid2 from '../../public/img/priyanka-grid2.png';
+import Brijesh from '../../../public/img/brijesh-sir.png';
+import Kajal from '../../../public/img/kajal.png';
+import Priyanka from '../../../public/img/priyanka.png';
+import Vikas from '../../../public/img/vikas-sir.png';
+import PriyankaGrid from '../../../public/img/priyanka-grid.png';
+import ManpreetGrid from '../../../public/img/manreet-grid.png';
+import PriyankaGrid2 from '../../../public/img/priyanka-grid2.png';
 
-import './home/course.css'
+import '../home/course.css'
 
 export default function Journey() {
 

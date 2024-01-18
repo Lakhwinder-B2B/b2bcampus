@@ -248,7 +248,6 @@ span.or {
 .python-box {
     text-align: left;
     -moz-column-gap: 15px;
-    column-gap: 15px;
     border-radius: 15px 0 0 15px;
 }
 .banner-python ul.order-list li {
@@ -268,9 +267,34 @@ button.brochure-btn:hover{
     border: 3px solid #3079E8;
     max-width:100%;
 }
-
-
-
+ul.tool-images li {
+    max-width: 20%;
+    flex: 20%;
+}
+ul.tool-images li img {
+    max-width: 100%;
+}
+.video-bg{
+    background-color:#d1e4e8;
+}
+.video-bg h1.text_heading {
+    color: #071C4D;
+}
+.video-bg ul.order-list::before{
+    display: none !important;
+}
+.video-training-grid > div:nth-child(1) .our_box1 {
+    border-top: 20px solid #86D0EA;
+}
+.video-training-grid > div:nth-child(2) .our_box1 {
+    border-top: 20px solid #83DCB0;
+}
+.video-training-grid > div:nth-child(3) .our_box1 {
+    border-top: 20px solid #FCB059;
+}
+.video-training-grid > div:nth-child(4) .our_box1 {
+    border-top: 20px solid #D4DD58;
+}
 
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {

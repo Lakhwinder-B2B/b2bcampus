@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react";
-import '../../src/app/python-training-course/python.css';  
+import '../python-training-course/python.css';  
 
 export default function Home() {
  
@@ -11,15 +11,19 @@ export default function Home() {
         <div className="container-fluid mx-auto p-5">
           <div className="row align-items-center">
             <div className="col-md-7">
-                <h1 className="mb-5">About Python Course</h1>
-                <p className="mb-3">Our Python Training Course is the ultimate program to help you master the Python programming language. Whether you are a beginner or an experienced developer, this comprehensive course will take you from foundational concepts to advanced techniques.</p>
-              <p className="mb-3">Dive into Python syntax, data structures, functions, object-oriented programming, web development, and more. Through hands-on projects and exercises, you’ll gain practical experience and build a strong foundation in Python programming.</p>
-           <p className="mb-3">Our expert instructors provide guidance and real-world examples, ensuring you are equipped with the skills needed for success. Join our Python Training Course today and unlock a world of opportunities in the exciting field of coding.</p>
+                <h1 className="mb-5">About Video Editing Course</h1>
+                <p className="mb-3">Our Video Editing Course is designed to take you from a novice to a proficient video editor. We start with the fundamentals, ensuring 
+                you have a solid foundation in video formats, equipment, and software. As you progress, you’ll delve into more advanced techniques, including color grading, 
+                sound editing, and creating visually stunning effects.</p>
+                <p className="mb-3">At B2B Campus, we understand that storytelling is at the heart of great video content. That’s why we emphasize the art of storytelling 
+                through editing. You’ll learn how to take raw footage and turn it into a captivating narrative that engages your audience.</p>
+                <p className="mb-3">Hands-on learning is essential to mastering video editing. Our state-of-the-art facilities provide you with access to the latest equipment 
+                and industry-standard software. You’ll work on real projects, gaining practical experience that you can showcase in your professional portfolio.</p>
             </div>
             <div className="col-md-5">
                 <div className="applyForm bg-white text-center p-4">
-                    <h2 className="mb-3">Apply for New Batch</h2>
-                    <p className="mb-4">We are here to help you with anything!</p>
+                    <h2 className="mb-3">Fill out the form</h2>
+                    <p className="mb-4">We’ll get in touch with you at your convenience!</p>
                     <form action="">
                         <div className="input-group mb-3">
                             <input type="text" placeholder="Name*" className="form-control" />

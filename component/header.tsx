@@ -39,8 +39,8 @@ const currentRoute = usePathname();
             <div className="col-md-3">
               <ul className="dropdown-menus border-right"> 
                 <li><Link className="dropdown-item" href="python-training-course">Python</Link></li>
-                <li><a className="dropdown-item" href="/ ">Digital marketing</a></li>
-                <li><a className="dropdown-item" href="/ ">Video Editing</a></li>
+                <li><Link className="dropdown-item" href="digital-marketing">Digital marketing</Link></li>
+                <li><Link className="dropdown-item" href="video-editing">Video Editing</Link></li>
                 <li><a className="dropdown-item" href="/ ">Graphic Design</a></li> 
                 <li><a className="dropdown-item" href="/ ">Data Science</a></li> 
                 <li><a className="dropdown-item" href="/ ">Flutter</a></li> 

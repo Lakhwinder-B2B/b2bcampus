@@ -14,3 +14,9 @@ p.mb-3 {
     width: 100%;
     margin-top: -3rem;
 }
+.training-grid .our_box1 {
+    border-radius: 10px;
+}
+.col-flex {
+    text-align: left;
+}

@@ -1,9 +1,9 @@
 'use client'
 
 import React from "react"; 
-import Coursepython from '../../public/img/course.png';
+import Coursepython from '../../../public/img/course.png';
 
-import './home/course.css'
+import '../home/course.css'
 
 export default function Journey() {
 
