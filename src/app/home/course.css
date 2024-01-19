@@ -295,6 +295,53 @@ ul.tool-images li img {
 .video-training-grid > div:nth-child(4) .our_box1 {
     border-top: 20px solid #D4DD58;
 }
+.tab-bg{
+    background-color: #071C4D;
+}
+.inner-vert-tab {
+    max-width: 30%;
+}
+.vertical-tab .tab-content {
+    max-width: 70%;
+    width:100%;
+}
+.tab-data > img {
+    max-width: 60px;
+    border-right: 2px solid #fff;
+    padding-right: 8px;
+}
+.tab-data span.tab-heading {
+    padding-left: 10px;
+    font-size: 20px;
+}
+img{
+    max-width:100%;
+}
+.tools {
+    background: #F2F6FF;
+}
+.column-order li {
+    list-style: none;
+}
+.column-order {
+    padding: 0;
+    column-gap: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    color: blue;
+}
+.video-slick .slick-list .slick-track {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3em;
+}
+.tab-bg .slick-slider {
+    max-height: 700px;
+}
+.tab-slicker {
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {

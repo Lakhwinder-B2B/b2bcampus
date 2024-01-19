@@ -56,62 +56,60 @@ export default function Journey() {
             <img src={Line.src} className="line_campus mb-5" alt="" />
             </div>
             <ul className="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
-  <li className="nav-item" role="presentation">
-    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Graphic Design</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Web Development</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Digital Marketing</button>
-  </li> 
-</ul>
-<div className="tab-content" id="pills-tabContent">
-  <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-    <div className="row">
- 
-    <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/59K-fxaiOas" allowFullScreen  ></iframe>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Graphic Design</button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Web Development</button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Digital Marketing</button>
+              </li> 
+            </ul>
+            <div className="tab-content" id="pills-tabContent">
+              <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div className="row">           
+                    <div className="col-md-6">
+                      <div className="embed-responsive embed-responsive-16by9">
+                        <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/59K-fxaiOas" allowFullScreen  ></iframe>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="embed-responsive embed-responsive-16by9">
+                          <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/57g_PY-bAvI" allowFullScreen  ></iframe>
+                        </div>
+                    </div> 
+                </div>
+              </div>
+            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div className="row">
+                  <div className="col-md-6">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/mw7czS0khFc" allowFullScreen  ></iframe>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/emiCZn1gwz4" allowFullScreen  ></iframe>
+                    </div> 
+                  </div>
+              </div>
             </div>
-        </div>
-        <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/57g_PY-bAvI" allowFullScreen  ></iframe>
-            </div>
-        </div> 
-    </div>
-
-  </div>
-  <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-  <div className="row">
-  <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/mw7czS0khFc" allowFullScreen  ></iframe>
-            </div>
-        </div>
-        <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/emiCZn1gwz4" allowFullScreen  ></iframe>
-            </div> 
-        </div>
-        </div>
-  </div>
-  <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-  <div className="row">
-  <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/UXk6Rk7Mrys" allowFullScreen  ></iframe>
-            </div>
-        </div>
-        <div className="col-md-6">
-        <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/25D1b0YWwuI" allowFullScreen  ></iframe>
-            </div> 
-        </div>
-        </div>
-    </div> 
-</div>
+            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/UXk6Rk7Mrys" allowFullScreen  ></iframe>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item w-100" src="https://www.youtube.com/embed/25D1b0YWwuI" allowFullScreen  ></iframe>
+                    </div> 
+                  </div>
+                </div>
+              </div> 
+          </div>
         </div>
       </div>
 

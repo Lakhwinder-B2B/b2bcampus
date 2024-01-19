@@ -5,11 +5,12 @@ import Header from '../../../component/header'
 import Footer from '../../../component/footer'
 import VideoEditor from '../../../public/img/video-banner.png'; 
 import VideoCourse from '../video-editing/video-course';
-import OurMedia from '../home/OurMedia';
+import VideoMedia from '../video-editing/video-media';
 import VideoTraining from '../video-editing/video-training';
+import VideoTab from '../video-editing/video-tab';
 import DigitalColumn from '../digital-marketing/digital-column';
-import DigitalBanner from '../digital-marketing/digital-banner';
-import DigitalTutor from '../digital-marketing/digital-tutor';
+import VideoSlick from '../video-editing/video-slick';
+import VideoTutor from '../video-editing/video-tutor';
 import '../python-training-course/python.css';  
 
 export default function Home() {
@@ -70,10 +71,11 @@ export default function Home() {
           </div>
             <VideoCourse />
             <VideoTraining/>
+            <VideoTab/>
             <DigitalColumn/>
-            <DigitalBanner/>
-            <DigitalTutor/>
-            <OurMedia />
+            <VideoSlick/>
+            <VideoTutor/>
+            <VideoMedia />
         <Footer />
       </div>
     </>
