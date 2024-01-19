@@ -336,12 +336,65 @@ img{
     column-gap: 3em;
 }
 .tab-bg .slick-slider {
-    max-height: 700px;
+    max-height: 640px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .tab-slicker {
     max-width: 90%;
     margin: 0 auto;
 }
+.banner-btngroup {
+    column-gap: 2em;
+}
+.graphic_home .heading-lg {
+    color: #FD7C50 !important;
+}
+.graphic_home .desc_course {
+    max-width: 60%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 35px;
+}
+.blue-shade{
+    color:#3079E8;
+}
+.tools .tool-img {
+    max-width: 20%;
+    width: 20%;
+    display:flex;flex-wrap:wrap;justify-content:center;
+    margin-bottom:3em;
+}
+.graphic-slicker .slick-slider {
+    max-height: 400px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.accordion-div .accordion-item {
+    width: 50%;
+}
+.accordion-div button.accordion-button.collapsed {
+    font-weight: 600;
+}
+.text-blue{
+    color:#071C4D;
+}
+.dura-fees {
+    column-gap: 3em;
+}
+.banner-btngroup button:hover {
+    color: #fff !important;
+}
+.color-green {
+    color: #3923CC;
+    font-weight: 600;
+}
+.tool-images::before {
+    border: none !important;
+}
+
 
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {

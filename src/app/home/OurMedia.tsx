@@ -16,7 +16,7 @@ export default function Journey() {
   return (
     <>
  
-      <div className="p-5 pt-5   text-center">
+      <div className="p-5 pt-5 tab-bg  text-center">
         <div className="p-0">
         <h1 className="top_heading pb-4 fs-2 font-bold text-white">Our Media Presence</h1> 
         <div className="row">

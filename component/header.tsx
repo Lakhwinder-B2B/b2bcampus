@@ -41,8 +41,8 @@ const currentRoute = usePathname();
                 <li><Link className="dropdown-item" href="python-training-course">Python</Link></li>
                 <li><Link className="dropdown-item" href="digital-marketing">Digital marketing</Link></li>
                 <li><Link className="dropdown-item" href="video-editing">Video Editing</Link></li>
-                <li><a className="dropdown-item" href="/ ">Graphic Design</a></li> 
-                <li><a className="dropdown-item" href="/ ">Data Science</a></li> 
+                <li><Link className="dropdown-item" href="graphic-designing">Graphic Design</Link></li> 
+                <li><Link className="dropdown-item" href="data-science">Data Science</Link></li> 
                 <li><a className="dropdown-item" href="/ ">Flutter</a></li> 
           
             </ul>
