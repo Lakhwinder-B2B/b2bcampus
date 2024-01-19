@@ -23,56 +23,56 @@ export default function Journey() {
         <div className="p-0">
             <h1 className="top_heading pb-4 text-dark fs-2 font-bold mb-5">Key Highlights of Our Digital Marketing Course</h1> 
             <div className="row python-grid">
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm1.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">A 3-Month Applied Learning Program</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm2.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">Over 25 Live Sessions in 3 Months</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm3.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">Learn from marketers and business professionals.</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm4.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">15+ Industry Projects and Case Studies</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm5.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">One-on-one consultations with industry mentors.</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm6.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">Soft skills training</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm7.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">Guaranteed interviews in reputed IT companies</span>
                     </div> 
                 </div>
 
-                <div className="col-6 col-sm-4 col-md-4 col-lg-3 mb-5">
+                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                    <div className="python-box shadow bg-white d-flex justify-content-center align-items-center text-left">
                         <img src={Dm8.src} className="our_logo" alt="" />
                         <span className="w-100 fs-6 mt-2 mb-2 font-bold pe-3 ps-3">Designed for Working Professionals and freshers</span>

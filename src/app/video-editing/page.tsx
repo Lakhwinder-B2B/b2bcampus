@@ -8,7 +8,6 @@ import VideoCourse from '../video-editing/video-course';
 import VideoMedia from '../video-editing/video-media';
 import VideoTraining from '../video-editing/video-training';
 import VideoTab from '../video-editing/video-tab';
-import DigitalColumn from '../digital-marketing/digital-column';
 import VideoSlick from '../video-editing/video-slick';
 import VideoTutor from '../video-editing/video-tutor';
 import '../python-training-course/python.css';  
@@ -72,7 +71,6 @@ export default function Home() {
             <VideoCourse />
             <VideoTraining/>
             <VideoTab/>
-            <DigitalColumn/>
             <VideoSlick/>
             <VideoTutor/>
             <VideoMedia />
