@@ -394,10 +394,21 @@ img{
 .tool-images::before {
     border: none !important;
 }
+.flutter{
+    color:#FFCA22;
+}
+.flutter-heading {
+    font-size: 57px;
+    line-height: 70px;
+    font-weight: 600;
+}
 
 
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {
         font-size: 20px !important;
+    }
+    .accordion-div .accordion-item {
+        width: 100%;
     }
 }

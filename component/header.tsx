@@ -43,7 +43,7 @@ const currentRoute = usePathname();
                 <li><Link className="dropdown-item" href="video-editing">Video Editing</Link></li>
                 <li><Link className="dropdown-item" href="graphic-designing">Graphic Design</Link></li> 
                 <li><Link className="dropdown-item" href="data-science">Data Science</Link></li> 
-                <li><a className="dropdown-item" href="/ ">Flutter</a></li> 
+                <li><Link className="dropdown-item" href="flutter">Flutter</Link></li> 
           
             </ul>
             </div>

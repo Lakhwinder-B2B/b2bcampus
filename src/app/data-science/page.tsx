@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container-fluid mx-auto p-5">
             <div className="row align-items-center">
                 <div className="col-md-12 d-flex flex-wrap align-items-center justify-content-start">
-                    <h1 className="col-12 co-md-7 heading-md fs-1 text-blue w-100 mb-4">Gain The Skills To Navigate The Data-Driven World</h1>
+                    <h1 className="col-12 col-md-7 heading-md fs-1 text-blue w-100 mb-4">Gain The Skills To Navigate The Data-Driven World</h1>
                     <p className='desc_course m-0'>Empower yourself with the tools of data intelligence. Join our Data Science Course and learn<br/>
 how to analyze and manipulate data using one of the most versatile and in-demand<br/> programming languages in the industry.</p>
                     <div className="mt-5 banner-btngroup text-center d-flex flex-wrap justify-content-start w-100">

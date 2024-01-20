@@ -37,10 +37,10 @@ export default function Home() {
            
           </div>
           <div className="overlap_section">
-        <div className="container-fluid mx-auto p-5"> 
-          <div className="course_box shadow bg-white p-4 borderrounded">
-            <div className="row align-items-center">
-            <div className="col-md-7">
+            <div className="container-fluid mx-auto p-5"> 
+              <div className="course_box shadow bg-white p-4 borderrounded">
+                <div className="row align-items-center">
+                <div className="col-md-7">
 
                 <div className="d-flex justify-content-between">
                 <div className="main_monts">
