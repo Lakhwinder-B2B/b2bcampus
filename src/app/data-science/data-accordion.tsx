@@ -118,12 +118,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingFour">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 			Module 4 : INFERENTIAL STATISTICS
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>Norôal Distri-ution</li>
@@ -134,12 +134,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingFive">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 			Module 5 : PYTHON MYSQLI
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>MySl Introduction</li>
@@ -157,12 +157,12 @@ export default function Journey() {
 			</div>
 		</div>
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingSix">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 			Module 6 : BUILDING YOUR FRIST PROJECT
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>Machine Learning</li>
@@ -176,12 +176,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingSeven">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 			Module 7 : INTRO TO PYTHON MODULES
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>NumPy</li>
@@ -194,12 +194,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingEight">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
 			Module 8 : PYTHON MATPLOTLIB
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>lntroduction</li>
@@ -214,12 +214,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingNine">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
 			Module 9 : CODING EXPRCISES
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>chapter wise</li>
@@ -229,12 +229,12 @@ export default function Journey() {
 		</div>
 
 		<div className="accordion-item shadow">
-			<h2 className="accordion-header" id="headingThree">
-			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<h2 className="accordion-header" id="headingTen">
+			<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
 			Module 10 : PYTHON MATPlLOTILIB
 			</button>
 			</h2>
-			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
 				<div className="accordion-body">
 					<ul className="list-order">
 						<li>Introduction</li>

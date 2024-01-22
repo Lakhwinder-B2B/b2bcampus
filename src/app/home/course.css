@@ -402,7 +402,9 @@ img{
     line-height: 70px;
     font-weight: 600;
 }
-
+.flutter ul.order-list::before {
+    display: none;
+}
 
 @media screen and (max-width:991px) {
     .training-grid .our_box1 span {

@@ -6,6 +6,9 @@ import Footer from '../../../component/footer';
 import Flutter from '../../../public/img/flutter-bg.png';
 import FlutterColumn from '../flutter/flutter-column';
 import FlutterCourse from '../flutter/flutter-course';
+import FlutterTraining from '../flutter/flutter-training';
+import FlutterAccordion from '../flutter/flutter-accordion';
+import FlutterTutor from '../flutter/flutter-tutor';
 import OurMedia from '../home/OurMedia';
 import '../python-training-course/python.css';  
 
@@ -72,6 +75,9 @@ export default function Home() {
       </div>
         <FlutterColumn/>
         <FlutterCourse/>
+        <FlutterTraining/> 
+        <FlutterAccordion/>
+        <FlutterTutor/>
         <OurMedia />
         <Footer />
 
